@@ -7,6 +7,7 @@ module.exports = function (gemini, opts) {
 
     var server;
     var rootUrl = url.parse(gemini.config.rootUrl);
+    opts = opts || {};
     opts.root = (path.resolve(process.cwd()), opts.root || '.');
 
     gemini.on('startRunner', function () {

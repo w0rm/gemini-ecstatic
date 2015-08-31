@@ -1,6 +1,6 @@
 {
   "name": "gemini-ecstatic",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Gemini ecstatic plugin",
   "main": "index.js",
   "scripts": {
