@@ -1,6 +1,6 @@
 {
   "name": "gemini-ecstatic",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Gemini ecstatic plugin",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,12 @@
     "name": "Andrey Kuzmin",
     "email": "unsoundscapes@gmail.com"
   },
+  "keywords": [
+    "gemini-plugin",
+    "ecstatic",
+    "static",
+    "server"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
