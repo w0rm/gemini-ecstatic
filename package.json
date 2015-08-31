@@ -1,6 +1,6 @@
 {
   "name": "gemini-ecstatic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gemini ecstatic plugin",
   "main": "index.js",
   "scripts": {
@@ -19,9 +19,6 @@
     "url": "https://github.com/w0rm/gemini-ecstatic/issues"
   },
   "homepage": "https://github.com/w0rm/gemini-ecstatic",
-  "devDependencies": {
-    "ecstatic": "^0.8.0"
-  },
   "dependencies": {
     "ecstatic": "^0.8.0"
   }
