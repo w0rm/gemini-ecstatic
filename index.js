@@ -5,9 +5,9 @@ var url = require('url');
 
 module.exports = function (gemini, opts) {
 
-    var server;
-    var rootUrl = url.parse(gemini.config.rootUrl);
     opts = opts || {};
+    var server;
+    var rootUrl = url.parse(opts.url || 'http://127.0.0.1:8080');
     opts.root = (path.resolve(process.cwd()), opts.root || '.');
 
     gemini.on('startRunner', function () {
