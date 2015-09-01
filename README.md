@@ -8,11 +8,11 @@ Example `.gemini.yml`:
 
 ```yml
 rootUrl: http://127.0.0.1:8080
-
-plugins:
-  ecstatic:
-    root: www
-    url: http://127.0.0.1:8080
+system:
+  plugins:
+    ecstatic:
+      root: www
+      url: http://127.0.0.1:8080
 ```
 
 Default root is `process.cwd()` and default url is `http://127.0.0.1:8080`.
