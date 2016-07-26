@@ -23,6 +23,12 @@ module.exports = function (gemini, opts) {
 
     gemini.on('endRunner', function (runner, data) {
         return new Promise(function (resolve) {
+            // If there was an error in gemini, the server wouldn't
+            // start but `endRunner` is still called
+            if (!server) {
+                resolve();
+                return;
+            }
             console.log('Stopping ecstatic.');
             server.close(function () {
                 console.log('Stopped ecstatic.');
